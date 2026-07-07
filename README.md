@@ -70,14 +70,22 @@ Bu proje, yüksek performans ve güvenlik standartları göz önünde bulundurul
 
 ## 📸 Ekran Görüntüleri
 
-| Kasa / POS Ekranı | Garson Sipariş Ekranı |
-| :---: | :---: |
-| <img src="assets/screenshots/kasa.png" width="400" alt="Kasa Ekranı"/> | <img src="assets/screenshots/garson.png" width="400" alt="Garson Ekranı"/> |
-| <img src="assets/screenshots/kasa2.png" width="400" alt="Kasa Ekranı Detay"/> | <img src="assets/screenshots/garson2.png" width="400" alt="Garson Ekranı Detay"/> |
+### 💻 Kasa & Yönetim Paneli (Yatay Ekranlar)
+<div align="center">
+  <img src="assets/screenshots/panel.png" width="800" alt="Panel Ekranı"/>
+  <br/><br/>
+  <img src="assets/screenshots/kasa.png" width="400" alt="Kasa Ekranı"/>
+  <img src="assets/screenshots/kasa2.png" width="400" alt="Kasa Ekranı Detay"/>
+</div>
 
-| Yönetim Paneli | Mutfak Ekranı |
-| :---: | :---: |
-| <img src="assets/screenshots/panel.png" width="400" alt="Panel Ekranı"/> | <img src="assets/screenshots/mutfak.png" width="400" alt="Mutfak Ekranı"/> |
+### 📱 Garson Mobil & Mutfak (Dikey & Tablet Ekranlar)
+<div align="center">
+  <img src="assets/screenshots/mutfak.png" width="500" alt="Mutfak Ekranı"/>
+  <br/><br/>
+  <img src="assets/screenshots/garson.png" width="250" alt="Garson Ekranı"/>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="assets/screenshots/garson2.png" width="250" alt="Garson Ekranı Detay"/>
+</div>
 
 ---
 
