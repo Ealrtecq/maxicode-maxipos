@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 400" width="1000" height="400" role="img" aria-label="Ödeme akışı: fazla ödeme para üstü ya da tip box olur">
+  <defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#5fc4cc"/></marker></defs>
+  <rect width="1000" height="400" rx="18" fill="#0d1330"/>
+  <g font-family="Segoe UI, Helvetica, Arial, sans-serif" text-anchor="middle">
+    <text x="500" y="42" font-size="22" font-weight="700" fill="#ffffff">Ödeme akışı: kasa hep doğru kalır</text>
+    <rect x="32" y="96" width="150" height="60" rx="12" fill="#161d3d" stroke="#334079" stroke-width="1.5"/>
+    <text x="107" y="132" font-size="16" font-weight="600" fill="#ffffff">Ödeme istenir</text>
+    <polygon points="212,126 292,86 372,126 292,166" fill="#161d3d" stroke="#5fc4cc" stroke-width="1.5"/>
+    <text x="292" y="124" font-size="13" fill="#ffffff">Mutfağa iletildi</text><text x="292" y="141" font-size="13" fill="#ffffff">mi?</text>
+    <polygon points="480,126 570,82 660,126 570,170" fill="#161d3d" stroke="#5fc4cc" stroke-width="1.5"/>
+    <text x="570" y="122" font-size="13" fill="#ffffff">Tutar kalandan</text><text x="570" y="139" font-size="13" fill="#ffffff">fazla mı?</text>
+    <rect x="730" y="92" width="238" height="68" rx="12" fill="#059669" fill-opacity="0.25" stroke="#34d399" stroke-width="2"/>
+    <text x="849" y="122" font-size="15" font-weight="700" fill="#ffffff">Kasaya kalan tutar yazılır</text><text x="849" y="142" font-size="12" fill="#b8e8d4">ciro her zaman doğru</text>
+    <g stroke="#5fc4cc" stroke-width="2" fill="none">
+      <path d="M182 126H212" marker-end="url(#a)"/><path d="M372 126H480" marker-end="url(#a)"/><path d="M660 126H730" marker-end="url(#a)"/>
+      <path d="M292 166V210H116V250" marker-end="url(#a)"/>
+      <path d="M570 170V218"/><path d="M330 218H810"/>
+      <path d="M330 218V250" marker-end="url(#a)"/><path d="M570 218V250" marker-end="url(#a)"/><path d="M810 218V250" marker-end="url(#a)"/>
+    </g>
+    <g font-size="12" fill="#8fa0d6"><text x="426" y="116">evet</text><text x="695" y="116">hayır</text><text x="318" y="196">hayır</text><text x="596" y="206" text-anchor="start">evet</text></g>
+    <g stroke-width="1.5">
+      <rect x="28" y="250" width="176" height="70" rx="12" fill="#7f1d1d" fill-opacity="0.35" stroke="#f87171"/>
+      <rect x="226" y="250" width="208" height="70" rx="12" fill="#161d3d" stroke="#334079"/>
+      <rect x="466" y="250" width="208" height="70" rx="12" fill="#161d3d" stroke="#334079"/>
+      <rect x="706" y="250" width="208" height="70" rx="12" fill="#161d3d" stroke="#334079"/>
+    </g>
+    <g font-size="14" font-weight="600" fill="#ffffff">
+      <text x="116" y="280">Ödeme engellenir</text><text x="330" y="280">Nakit</text><text x="570" y="280">Kredi kartı</text><text x="810" y="280">Yemek çeki / cari / ikram</text>
+    </g>
+    <g font-size="12.5" fill="#b8c4ec">
+      <text x="116" y="301">önce mutfağa ilet</text><text x="330" y="301">para üstü ver ya da tip box</text><text x="570" y="301">fazlası tip box'a gider</text><text x="810" y="301">fazla tutar kabul edilmez</text>
+    </g>
+    <text x="500" y="364" font-size="13" fill="#8fa0d6">Tip box (bahşiş) ciroya ve KDV'ye girmez; garson bazında ayrı raporlanır.</text>
+  </g>
+</svg>

@@ -1,102 +1,165 @@
 <div align="center">
-  <img src="assets/screenshots/logo.png" alt="MaxiCode Adisyon Logo" width="200"/>
-  <h1>🍽️ MaxiCode Adisyon & POS Yönetim Sistemi</h1>
-  <p><strong>Restoran, Kafe ve İşletmeler için Gelişmiş, Hızlı ve Güvenli Yönetim Sistemi</strong></p>
 
-  <!-- Badges -->
-  <img src="https://img.shields.io/badge/Status-Active-success?style=for-the-badge" alt="Status" />
-  <img src="https://img.shields.io/badge/Platform-Web-blue?style=for-the-badge" alt="Platform" />
-  <img src="https://img.shields.io/badge/License-Proprietary-red?style=for-the-badge" alt="License" />
-</div>
+<img src="assets/img/banner.svg" alt="MaxiPOS v3: Restoran ve kafeler için adisyon ve POS sistemi" width="100%"/>
 
 <br/>
 
-> **Not:** Bu depo, **MaxiCode Adisyon** projesinin tanıtımı amacıyla oluşturulmuştur. Projenin kaynak kodları, ticari ve güvenlik nedenleriyle kapalı kaynak olarak tutulmaktadır. Detaylı bilgi, demo talebi veya satın alma için iletişime geçebilirsiniz.
+![Durum](https://img.shields.io/badge/Durum-Aktif-success?style=for-the-badge)
+![Sürüm](https://img.shields.io/badge/S%C3%BCr%C3%BCm-v3-5fc4cc?style=for-the-badge)
+![Platform](https://img.shields.io/badge/Platform-Web%20%C2%B7%20PWA-blue?style=for-the-badge)
+![Çalışma](https://img.shields.io/badge/%C4%B0nternetsiz-%C3%87al%C4%B1%C5%9F%C4%B1r-orange?style=for-the-badge)
+![Lisans](https://img.shields.io/badge/Lisans-Propriyeter-red?style=for-the-badge)
 
-## 🚀 Proje Hakkında
+**Masa, mutfak, kasa ve raporlama tek sistemde. Dükkânınızdaki mini PC ya da Raspberry Pi üzerinde, internet olmadan çalışır.**
 
-MaxiCode Adisyon, yeme-içme sektöründeki işletmelerin (restoran, kafe, bar vb.) siparişten ödemeye, mutfak yönetiminden detaylı raporlamalara kadar tüm süreçlerini tek bir çatı altında toplamalarını sağlayan kapsamlı bir **POS (Point of Sale)** ve adisyon otomasyonudur.
+[Özellikler](#-özellikler) · [Nasıl çalışır](#-nasıl-çalışır) · [Ekranlar](#-ekran-görüntüleri) · [Teknoloji](#-teknoloji) · [Kurulum](#-kurulum) · [İletişim](#-demo-ve-iletişim)
 
-Sistem, işletme içindeki farklı rollere (Garson, Aşçı, Kasiyer, Yönetici) özel olarak tasarlanmış modüllerle tam entegre ve eşzamanlı çalışır.
-
----
-
-## ✨ Temel Modüller ve Özellikler
-
-### 📱 1. Garson Modülü
-Sahada sipariş alan personelin hızını artırmak için optimize edilmiştir.
-- Tablet ve telefonlarla tam uyumlu (Responsive) mobil arayüz.
-- Masalara ve kategorilere göre kolay ürün seçimi.
-- Siparişlere özel not (örn: "Az pişmiş", "Buzsuz") ekleme imkanı.
-- Alınan siparişlerin anında mutfak ekranına ve yazıcılara iletilmesi.
-
-### 👨‍🍳 2. Mutfak Modülü
-Mutfaktaki karmaşayı önleyen, anlık sipariş takip ekranı.
-- Yeni gelen siparişlerin sesli uyarı ile ekrana düşmesi.
-- Hazırlanıyor / Hazır durum güncellemeleri.
-- Geciken siparişler için renkli zaman uyarısı.
-
-### 💻 3. Kasa ve Ödeme (POS) Modülü
-Hızlı ve hatasız hesap alma işlemleri.
-- Masalara göre güncel adisyon tutarlarını görüntüleme.
-- Parçalı ödeme (Nakit, Kredi Kartı, Yemek Çeki vb.) alabilme.
-- Masa taşıma, masa birleştirme veya adisyon bölme özellikleri.
-- **Termal Yazıcı Entegrasyonu:** Tek tıkla hesap fişi çıkarma.
-
-### 📊 4. Yönetim Paneli ve Raporlama
-İşletme sahibinin her şeyi kontrol edebildiği komuta merkezi.
-- Günlük, haftalık, aylık ciro ve kâr raporları.
-- En çok satılan ürünler (Menü analizleri).
-- Personel bazlı performans takibi.
-- Kapsamlı stok, reçete ve maliyet yönetimi.
-
-### 🔐 5. Güvenlik ve Yetkilendirme (Auth)
-- Rol tabanlı erişim kontrolü (Garson kasayı göremez, kasiyer ayarları değiştiremez vb.).
-- Tüm kullanıcı hareketlerinin sistem günlüğüne (log) kaydedilmesi.
-
----
-
-## 💻 Teknolojik Altyapı
-
-Bu proje, yüksek performans ve güvenlik standartları göz önünde bulundurularak geliştirilmiştir.
-
-- **Mimari:** Modüler, MVC tabanlı yapı.
-- **Backend:** PHP (Özel API Mimarisi)
-- **Veritabanı:** Güçlü ve optimize edilmiş SQL yapısı.
-- **Frontend:** Modern HTML5, CSS3, JavaScript (Responsive tasarım).
-- **Donanım Entegrasyonu:** ESC/POS uyumlu ağ/usb termal yazıcılarla tam haberleşme.
-
----
-
-## 📸 Ekran Görüntüleri
-
-### 💻 Kasa & Yönetim Paneli (Yatay Ekranlar)
-<div align="center">
-  <img src="assets/screenshots/panel.png" width="800" alt="Panel Ekranı"/>
-  <br/><br/>
-  <img src="assets/screenshots/kasa.png" width="400" alt="Kasa Ekranı"/>
-  <img src="assets/screenshots/kasa2.png" width="400" alt="Kasa Ekranı Detay"/>
 </div>
 
-### 📱 Garson Mobil & Mutfak (Dikey & Tablet Ekranlar)
+> **Not:** Bu depo **MaxiPOS** ürününün tanıtım sayfasıdır. Kaynak kodlar ticari ve güvenlik nedenleriyle kapalı tutulur. Demo, fiyat ve özel geliştirme için [iletişim](#-demo-ve-iletişim) bölümüne bakın.
+
+---
+
+## 🍽️ MaxiPOS nedir?
+
+MaxiPOS, restoran, kafe ve bar gibi işletmelerde siparişten ödemeye, mutfak takibinden gün sonu raporuna kadar bütün işi tek çatı altında toplayan bir **adisyon (POS) otomasyonudur**.
+
+Garson, aşçı, kasiyer ve yönetici aynı sistemi kendi rolüne göre görür ve hepsi anlık olarak senkron çalışır. Veriler dükkânınızdaki cihazda durur; internet kesilse bile satış devam eder.
+
 <div align="center">
-  <img src="assets/screenshots/mutfak.png" width="500" alt="Mutfak Ekranı"/>
+<img src="assets/img/siparis-yolculugu.svg" alt="Bir siparişin yolculuğu" width="100%"/>
+</div>
+
+---
+
+## ✨ Özellikler
+
+<div align="center">
+<img src="assets/img/ozellikler.svg" alt="MaxiPOS özellikleri" width="100%"/>
+</div>
+
+### 📱 Garson
+- Telefon ve tabletle tam uyumlu mobil arayüz
+- Masa ve kategoriye göre hızlı ürün seçimi, porsiyon ve ekstra seçenekleri
+- Siparişe özel not ("az pişmiş", "buzsuz")
+- Mutfaktan hazır çıkan siparişi görüp teslim edildi işaretleme
+- Hesap servis ücretini kendisi ekleyebilir
+
+### 👨‍🍳 Mutfak ve bar
+- Yeni sipariş sesli uyarıyla ekrana düşer
+- Hazırlanıyor / Hazır durumu, geciken siparişte renkli uyarı
+- Mutfak fişi (M001, M002 numaralı)
+- Mutfak raporu
+
+### 💻 Kasa ve ödeme
+- Masa planı, canlı adisyon tutarları
+- Nakit, kredi kartı, yemek çeki, cari (veresiye) ve ikram
+- Parçalı ödeme, kişi başı hesap bölme, tutar girerek ödeme
+- Masa taşıma, birleştirme ve ürün aktarma
+- İndirim, ürün iptali ve ikram (sebep zorunlu, hepsi kayıt altında)
+- Termal yazıcıdan tek tıkla hesap fişi
+
+### 💰 Tip box (bahşiş)
+Müşteri hesaptan fazla para verirse sistem sorar: para üstü mü verilecek, yoksa tip box'a mı atılacak? Bahşiş ciroya girmez, garson bazında ayrı raporlanır ve gün sonunda Z fişinde ayrı satır olarak çıkar.
+
+<div align="center">
+<img src="assets/img/odeme-akisi.svg" alt="Ödeme akışı" width="100%"/>
+</div>
+
+### 📦 Stok, maliyet ve cari
+- Malzeme, reçete, alış / sayım / fire hareketleri
+- Ürün maliyeti ve kâr marjı
+- Tedarikçi, personel ve müşteri cari hesapları, ekstre ve tahsilat
+- Kayıp / kaçak alarmları
+- Kasadan çıkış giderleri (pazar alımı, fatura, avans)
+
+### 📊 Yönetim ve raporlar
+- Ciro, kâr, KDV, ürün ve kategori raporları
+- Saatlik gelir trendi grafiği
+- Garson ve personel performansı, mesai takibi
+- İptal, mutfak, cari ve tip box raporları
+- **Otomatik gün sonu (Z raporu)**, en geç gece yarısı
+
+### 🔐 Güvenlik
+- Rol bazlı yetki: garson kasayı, kasiyer ayarları göremez
+- Her önemli işlem (fiyat değişikliği, silme, taşıma, giriş) işlem kaydına yazılır
+- Yerel HTTPS, parola ve PIN ile giriş
+- Zamanlı otomatik yedek, ayarlardan indirilebilir yedekler
+
+---
+
+## 🧭 Nasıl çalışır?
+
+<div align="center">
+<img src="assets/img/mimari.svg" alt="MaxiPOS mimarisi" width="100%"/>
+</div>
+
+Kasa, garson ve mutfak ekranları aynı yerel ağdaki tarayıcılardan açılır. Hepsi dükkândaki tek MaxiPOS sunucusuna bağlanır; sunucu verileri MariaDB'ye yazar, fişleri USB termal yazıcıya gönderir ve yedekleri alır. Bağlantı koparsa ekranlarda **"Sunucu ile bağlantı koptu"** uyarısı çıkar.
+
+---
+
+## 📸 Ekran görüntüleri
+
+> Görüntüler önceki sürümden alınmıştır, v3 ekranları ile birebir aynı olmayabilir.
+
+### 💻 Kasa ve yönetim paneli
+<div align="center">
+  <img src="assets/screenshots/panel.png" width="800" alt="Yönetim paneli"/>
   <br/><br/>
-  <img src="assets/screenshots/garson.png" width="250" alt="Garson Ekranı"/>
+  <img src="assets/screenshots/kasa.png" width="400" alt="Kasa ekranı"/>
+  <img src="assets/screenshots/kasa2.png" width="400" alt="Kasa ekranı detay"/>
+</div>
+
+### 👨‍🍳 Mutfak
+<div align="center">
+  <img src="assets/screenshots/mutfak.png" width="600" alt="Mutfak ekranı"/>
+</div>
+
+### 📱 Garson (mobil)
+<div align="center">
+  <img src="assets/screenshots/garson.png" width="250" alt="Garson ekranı"/>
   &nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="assets/screenshots/garson2.png" width="250" alt="Garson Ekranı Detay"/>
+  <img src="assets/screenshots/garson2.png" width="250" alt="Garson ekranı detay"/>
 </div>
 
 ---
 
-## 📞 İletişim & Demo Talebi
+## 🔧 Teknoloji
 
-Projemizi incelediğiniz için teşekkür ederiz. Canlı demo, fiyatlandırma veya projeye özel modül geliştirme (örneğin işletmenize özel entegrasyonlar) talepleriniz için aşağıdaki kanallardan ulaşabilirsiniz:
+| Katman | Teknoloji |
+| --- | --- |
+| Sunucu | Go, Fiber, GORM |
+| Arayüz | React, Vite, Bootstrap, PWA (ana ekrana eklenebilir) |
+| Veritabanı | MariaDB (yerel) |
+| Anlık iletişim | WebSocket |
+| Yazıcı | USB termal yazıcı (fiş, mutfak fişi, Z raporu) |
+| Donanım | Mini PC (amd64, Debian/Ubuntu) ve Raspberry Pi (64 bit) |
+| Tema | Açık ve koyu tema |
+
+---
+
+## 🚀 Kurulum
+
+Kurulum dükkânda tek komutla yapılır, kurulumdan sonra sistem internetsiz çalışır.
+
+1. Cihazı internete bağlayın ve kurulum USB'sini takın.
+2. `sudo bash kur.sh` komutunu çalıştırın.
+3. Telefon ve tabletlere yerel sertifikayı bir kez yükleyin.
+4. `https://maxipos.local` adresini açıp ana ekrana ekleyin.
+
+Kurulum betiği veritabanını, servisi, otomatik yedeği ve yazıcı iznini kendisi hazırlar; sonraki çalıştırmalarda veriyi koruyarak yalnızca uygulamayı günceller ve açılmazsa önceki sürüme döner.
+
+---
+
+## 📞 Demo ve iletişim
+
+Canlı demo, fiyatlandırma veya işletmenize özel geliştirme için bize ulaşın:
 
 - 📧 **E-posta:** info@maxicode.com.tr
-- 🌐 **Web Sitesi:** https://maxicode.com.tr | https://adisyon.maxicode.com.tr
+- 🌐 **Web:** https://maxicode.com.tr · https://adisyon.maxicode.com.tr
 
 ---
+
 <div align="center">
-  <p><i>Bu proje gururla geliştirilmiştir. © 2026 MaxiCode</i></p>
+  <sub>© 2026 MaxiCode · Tüm hakları saklıdır.</sub>
 </div>

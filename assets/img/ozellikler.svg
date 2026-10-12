@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 520" width="1000" height="520" role="img" aria-label="MaxiPOS özellikleri">
+  <rect width="1000" height="520" rx="18" fill="#0d1330"/>
+  <g font-family="Segoe UI, Helvetica, Arial, sans-serif" text-anchor="middle">
+    <text x="500" y="44" font-size="22" font-weight="700" fill="#ffffff">Bir işletmenin ihtiyacı olan her şey</text>
+    <g stroke-width="1.5" fill="#161d3d" stroke="#334079">
+      <rect x="32" y="76" width="300" height="200" rx="14"/><rect x="350" y="76" width="300" height="200" rx="14"/><rect x="668" y="76" width="300" height="200" rx="14"/>
+      <rect x="32" y="296" width="300" height="200" rx="14"/><rect x="350" y="296" width="300" height="200" rx="14"/><rect x="668" y="296" width="300" height="200" rx="14"/>
+    </g>
+    <g font-size="38"><text x="182" y="132">🪑</text><text x="500" y="132">👨‍🍳</text><text x="818" y="132">💳</text><text x="182" y="352">📦</text><text x="500" y="352">📊</text><text x="818" y="352">🔐</text></g>
+    <g font-size="19" font-weight="700" fill="#ffffff">
+      <text x="182" y="170">Masa &amp; Adisyon</text><text x="500" y="170">Mutfak &amp; Garson</text><text x="818" y="170">Ödeme</text>
+      <text x="182" y="390">Stok &amp; Maliyet</text><text x="500" y="390">Raporlar</text><text x="818" y="390">Yetki &amp; Güvenlik</text>
+    </g>
+    <g font-size="13.5" fill="#b8c4ec">
+      <text x="182" y="198">Masa planı, taşıma, birleştirme</text><text x="182" y="219">Porsiyon ve ekstra seçenekleri</text><text x="182" y="240">Kişi başı hesap bölme</text>
+      <text x="500" y="198">Anlık sipariş, sesli uyarı</text><text x="500" y="219">Hazır olunca garsona haber</text><text x="500" y="240">Mutfak fişi ve gecikme uyarısı</text>
+      <text x="818" y="198">Nakit, kart, yemek çeki, cari</text><text x="818" y="219">Parçalı ödeme, ikram, indirim</text><text x="818" y="240">Tip box ve Z raporu</text>
+      <text x="182" y="418">Malzeme, reçete, fire, sayım</text><text x="182" y="439">Tedarikçi ve cari hesaplar</text><text x="182" y="460">Kayıp / kaçak alarmları</text>
+      <text x="500" y="418">Ciro, kâr, KDV, ürün, kategori</text><text x="500" y="439">Garson ve personel performansı</text><text x="500" y="460">Otomatik gün sonu (Z)</text>
+      <text x="818" y="418">Rol bazlı yetki sistemi</text><text x="818" y="439">Tüm işlemlerin kaydı (log)</text><text x="818" y="460">Yerel HTTPS, otomatik yedek</text>
+    </g>
+  </g>
+</svg>

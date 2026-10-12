@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 420" width="1000" height="420" role="img" aria-label="MaxiPOS mimarisi: tüm ekranlar tek yerel sunucuya bağlanır">
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#5fc4cc"/></marker>
+  </defs>
+  <rect width="1000" height="420" rx="18" fill="#0d1330"/>
+  <g font-family="Segoe UI, Helvetica, Arial, sans-serif" text-anchor="middle">
+    <text x="500" y="46" font-size="22" font-weight="700" fill="#ffffff">Tüm ekranlar tek yerel sunucuya bağlanır</text>
+    <text x="500" y="70" font-size="14" fill="#8fa0d6">Aynı Wi-Fi / yerel ağ · internet gerekmez</text>
+
+    <g fill="#161d3d" stroke="#334079" stroke-width="1.5">
+      <rect x="40" y="110" width="200" height="64" rx="12"/><rect x="40" y="200" width="200" height="64" rx="12"/><rect x="40" y="290" width="200" height="64" rx="12"/>
+    </g>
+    <g font-size="17" font-weight="600" fill="#ffffff">
+      <text x="140" y="146">Kasa / Adisyon</text><text x="140" y="236">Garson telefonu</text><text x="140" y="326">Mutfak / bar ekranı</text>
+    </g>
+    <g font-size="12" fill="#8fa0d6"><text x="140" y="164">PC · tablet</text><text x="140" y="254">mobil tarayıcı</text><text x="140" y="344">tablet · TV</text></g>
+
+    <g stroke="#5fc4cc" stroke-width="2" fill="none" marker-end="url(#a)">
+      <path d="M240 142H330"/><path d="M240 232H330"/><path d="M240 322H330"/>
+    </g>
+    <text x="285" y="132" font-size="12" fill="#5fc4cc">HTTPS</text>
+
+    <rect x="330" y="96" width="340" height="272" rx="16" fill="#1b2650" stroke="#5fc4cc" stroke-width="2"/>
+    <text x="500" y="128" font-size="18" font-weight="700" fill="#ffffff">MaxiPOS Sunucusu</text>
+    <text x="500" y="148" font-size="12" fill="#8fa0d6">mini PC veya Raspberry Pi · Go</text>
+    <g fill="#0d1330" stroke="#334079" stroke-width="1.2">
+      <rect x="352" y="168" width="296" height="48" rx="10"/><rect x="352" y="226" width="296" height="48" rx="10"/><rect x="352" y="284" width="296" height="48" rx="10"/>
+    </g>
+    <g font-size="15" font-weight="600" fill="#ffffff">
+      <text x="500" y="198">REST API + yetki denetimi</text><text x="500" y="256">WebSocket · anlık bildirim</text><text x="500" y="314">Web arayüzü (React · PWA)</text>
+    </g>
+
+    <g stroke="#5fc4cc" stroke-width="2" fill="none" marker-end="url(#a)">
+      <path d="M670 142H760"/><path d="M670 232H760"/><path d="M670 322H760"/>
+    </g>
+    <g fill="#161d3d" stroke="#334079" stroke-width="1.5">
+      <rect x="760" y="110" width="200" height="64" rx="12"/><rect x="760" y="200" width="200" height="64" rx="12"/><rect x="760" y="290" width="200" height="64" rx="12"/>
+    </g>
+    <g font-size="17" font-weight="600" fill="#ffffff">
+      <text x="860" y="146">MariaDB</text><text x="860" y="236">Termal yazıcı</text><text x="860" y="326">Otomatik yedek</text>
+    </g>
+    <g font-size="12" fill="#8fa0d6"><text x="860" y="164">tüm veriler yerelde</text><text x="860" y="254">USB · fiş ve Z raporu</text><text x="860" y="344">zamanlı, indirilebilir</text></g>
+    <text x="500" y="398" font-size="13" fill="#8fa0d6">Bağlantı koparsa ekranlarda "Sunucu ile bağlantı koptu" uyarısı çıkar</text>
+  </g>
+</svg>

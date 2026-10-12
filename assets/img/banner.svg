@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" width="1200" height="340" role="img" aria-label="MaxiPOS v3 - Restoran ve kafeler için adisyon ve POS sistemi">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0d1330"/><stop offset="1" stop-color="#1f2f6b"/></linearGradient>
+    <linearGradient id="vio" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#4f46e5"/><stop offset="1" stop-color="#7c3aed"/></linearGradient>
+    <linearGradient id="grn" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#059669"/><stop offset="1" stop-color="#10b981"/></linearGradient>
+  </defs>
+  <rect width="1200" height="340" rx="20" fill="url(#bg)"/>
+  <g font-family="Segoe UI, Helvetica, Arial, sans-serif">
+    <text x="60" y="130" font-size="76" font-weight="800" fill="#ffffff">MaxiPOS<tspan fill="#5fc4cc"> v3</tspan></text>
+    <text x="62" y="176" font-size="26" fill="#cbd5f5">Restoran ve kafeler için adisyon &amp; POS sistemi</text>
+    <text x="62" y="212" font-size="18" fill="#8fa0d6">Masa · Mutfak · Kasa · Rapor, tek sistemde. İnternetsiz çalışır.</text>
+    <g font-size="16" font-weight="600">
+      <rect x="60" y="248" width="82" height="36" rx="18" fill="#ffffff" fill-opacity="0.12"/><text x="101" y="271" text-anchor="middle" fill="#ffffff">Go</text>
+      <rect x="154" y="248" width="96" height="36" rx="18" fill="#ffffff" fill-opacity="0.12"/><text x="202" y="271" text-anchor="middle" fill="#ffffff">React</text>
+      <rect x="262" y="248" width="116" height="36" rx="18" fill="#ffffff" fill-opacity="0.12"/><text x="320" y="271" text-anchor="middle" fill="#ffffff">MariaDB</text>
+      <rect x="390" y="248" width="170" height="36" rx="18" fill="#f0cf65" fill-opacity="0.2"/><text x="475" y="271" text-anchor="middle" fill="#f0cf65">Raspberry Pi hazır</text>
+    </g>
+  </g>
+  <g font-family="Segoe UI, Helvetica, Arial, sans-serif">
+    <rect x="760" y="52" width="380" height="124" rx="16" fill="url(#vio)"/>
+    <text x="784" y="82" font-size="13" font-weight="700" fill="#e0e0ff" letter-spacing="1.5">BUGÜNKÜ CİRO</text>
+    <text x="784" y="132" font-size="44" font-weight="800" fill="#ffffff">12.480 ₺</text>
+    <text x="784" y="158" font-size="14" fill="#d5d3ff">Nakit · Kart · Yemek çeki</text>
+    <rect x="760" y="192" width="182" height="96" rx="14" fill="#161d3d" stroke="#334079"/>
+    <text x="780" y="220" font-size="12" font-weight="700" fill="#8fa0d6" letter-spacing="1.2">AÇIK MASA</text>
+    <text x="780" y="262" font-size="36" font-weight="800" fill="#ffffff">14</text>
+    <rect x="958" y="192" width="182" height="96" rx="14" fill="url(#grn)"/>
+    <text x="978" y="220" font-size="12" font-weight="700" fill="#d1fae5" letter-spacing="1.2">TİP BOX</text>
+    <text x="978" y="262" font-size="36" font-weight="800" fill="#ffffff">640 ₺</text>
+  </g>
+</svg>
