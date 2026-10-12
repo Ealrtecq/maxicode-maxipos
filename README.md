@@ -100,26 +100,22 @@ Kasa, garson ve mutfak ekranları aynı yerel ağdaki tarayıcılardan açılır
 
 ## 📸 Ekran görüntüleri
 
-> Görüntüler önceki sürümden alınmıştır, v3 ekranları ile birebir aynı olmayabilir.
-
-### 💻 Kasa ve yönetim paneli
+### 🪑 Satış: masa planı
+Boş ve dolu masalar bölgelere göre listelenir; dolu masada geçen süre ve güncel hesap görünür.
 <div align="center">
-  <img src="assets/screenshots/panel.png" width="800" alt="Yönetim paneli"/>
-  <br/><br/>
-  <img src="assets/screenshots/kasa.png" width="400" alt="Kasa ekranı"/>
-  <img src="assets/screenshots/kasa2.png" width="400" alt="Kasa ekranı detay"/>
+  <img src="assets/screenshots/satis-masalar.jpg" width="900" alt="Satış ekranı: masa planı"/>
 </div>
 
-### 👨‍🍳 Mutfak
+### 🧾 Masa adisyonu
+Masaya tıklayınca açılan adisyonda fotoğraflı menü, hesap, tutar girerek ve kişi başı ödeme, nakit / kart / yemek fişi / cari butonları tek ekranda.
 <div align="center">
-  <img src="assets/screenshots/mutfak.png" width="600" alt="Mutfak ekranı"/>
+  <img src="assets/screenshots/masa-adisyon.jpg" width="900" alt="Masa adisyon ekranı"/>
 </div>
 
-### 📱 Garson (mobil)
+### 🍔 Menü yönetimi
+Kategori, ürün, fiyat ve fotoğraf yönetimi Ayarlar içinde.
 <div align="center">
-  <img src="assets/screenshots/garson.png" width="250" alt="Garson ekranı"/>
-  &nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="assets/screenshots/garson2.png" width="250" alt="Garson ekranı detay"/>
+  <img src="assets/screenshots/menu-yonetimi.jpg" width="900" alt="Menü yönetimi"/>
 </div>
 
 ---
