@@ -10,7 +10,7 @@
 ![Çalışma](https://img.shields.io/badge/%C4%B0nternetsiz-%C3%87al%C4%B1%C5%9F%C4%B1r-orange?style=for-the-badge)
 ![Lisans](https://img.shields.io/badge/Lisans-Propriyeter-red?style=for-the-badge)
 
-**Masa, mutfak, kasa ve raporlama tek sistemde. Dükkânınızdaki mini PC ya da Raspberry Pi üzerinde, internet olmadan çalışır.**
+**Masa, mutfak, kasa ve raporlama tek sistemde. Dükkânınızdaki mini PC üzerinde, internet olmadan çalışır.**
 
 [Özellikler](#-özellikler) · [Nasıl çalışır](#-nasıl-çalışır) · [Ekranlar](#-ekran-görüntüleri) · [Teknoloji](#-teknoloji) · [Kurulum](#-kurulum) · [İletişim](#-demo-ve-iletişim)
 
@@ -129,7 +129,7 @@ Kategori, ürün, fiyat ve fotoğraf yönetimi Ayarlar içinde.
 | Veritabanı | MariaDB (yerel) |
 | Anlık iletişim | WebSocket |
 | Yazıcı | USB termal yazıcı (fiş, mutfak fişi, Z raporu) |
-| Donanım | Mini PC (amd64, Debian/Ubuntu) ve Raspberry Pi (64 bit) |
+| Donanım | Mini PC (amd64, Debian/Ubuntu) |
 | Tema | Açık ve koyu tema |
 
 ---

@@ -22,7 +22,7 @@
 
     <rect x="330" y="96" width="340" height="272" rx="16" fill="#1b2650" stroke="#5fc4cc" stroke-width="2"/>
     <text x="500" y="128" font-size="18" font-weight="700" fill="#ffffff">MaxiPOS Sunucusu</text>
-    <text x="500" y="148" font-size="12" fill="#8fa0d6">mini PC veya Raspberry Pi · Go</text>
+    <text x="500" y="148" font-size="12" fill="#8fa0d6">dükkândaki mini PC · Go</text>
     <g fill="#0d1330" stroke="#334079" stroke-width="1.2">
       <rect x="352" y="168" width="296" height="48" rx="10"/><rect x="352" y="226" width="296" height="48" rx="10"/><rect x="352" y="284" width="296" height="48" rx="10"/>
     </g>
