@@ -12,7 +12,7 @@
 
 **Masa, mutfak, kasa ve raporlama tek sistemde. Dükkânınızdaki mini PC üzerinde, internet olmadan çalışır.**
 
-[Özellikler](#-özellikler) · [Nasıl çalışır](#-nasıl-çalışır) · [Ekranlar](#-ekran-görüntüleri) · [Teknoloji](#-teknoloji) · [Kurulum](#-kurulum) · [İletişim](#-demo-ve-iletişim)
+[Özellikler](#-özellikler) · [Nasıl çalışır](#-nasıl-çalışır) · [Ekranlar](#-ekran-görüntüleri) · [Teknoloji](#-teknoloji) · [İletişim](#-demo-ve-iletişim)
 
 </div>
 
@@ -162,26 +162,9 @@ Otomatik ya da manuel Z raporu, gün dönümü saati.
 
 ---
 
-## 🚀 Kurulum
-
-Kurulum dükkânda tek komutla yapılır, kurulumdan sonra sistem internetsiz çalışır.
-
-<div align="center">
-<img src="assets/img/kurulum.svg" alt="Kurulum 4 adım" width="100%"/>
-</div>
-
-1. Cihazı internete bağlayın ve kurulum USB'sini takın.
-2. `sudo bash kur.sh` komutunu çalıştırın.
-3. Telefon ve tabletlere yerel sertifikayı bir kez yükleyin.
-4. `https://maxipos.local` adresini açıp ana ekrana ekleyin.
-
-Kurulum betiği veritabanını, servisi, otomatik yedeği ve yazıcı iznini kendisi hazırlar; sonraki çalıştırmalarda veriyi koruyarak yalnızca uygulamayı günceller ve açılmazsa önceki sürüme döner.
-
----
-
 ## 📞 Demo ve iletişim
 
-Canlı demo, fiyatlandırma veya işletmenize özel geliştirme için bize ulaşın:
+Canlı demo, fiyatlandırma veya işletmenize özel geliştirme için bize ulaşın. Kurulum ve devreye alma MaxiCode ekibi tarafından yapılır.
 
 - 📧 **E-posta:** info@maxicode.com.tr
 - 🌐 **Web:** https://maxicode.com.tr · https://adisyon.maxicode.com.tr
