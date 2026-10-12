@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/img/banner.svg" alt="MaxiPOS v3: Restoran ve kafeler için adisyon ve POS sistemi" width="100%"/>
+<img src="assets/img/banner-v2.svg" alt="MaxiPOS v3: Restoran ve kafeler için adisyon ve POS sistemi" width="100%"/>
 
 <br/>
 
@@ -80,6 +80,10 @@ Müşteri hesaptan fazla para verirse sistem sorar: para üstü mü verilecek, y
 - İptal, mutfak, cari ve tip box raporları
 - **Otomatik gün sonu (Z raporu)**, en geç gece yarısı
 
+<div align="center">
+<img src="assets/img/gun-sonu.svg" alt="Otomatik gün sonu akışı" width="100%"/>
+</div>
+
 ### 🔐 Güvenlik
 - Rol bazlı yetki: garson kasayı, kasiyer ayarları göremez
 - Her önemli işlem (fiyat değişikliği, silme, taşıma, giriş) işlem kaydına yazılır
@@ -91,7 +95,7 @@ Müşteri hesaptan fazla para verirse sistem sorar: para üstü mü verilecek, y
 ## 🧭 Nasıl çalışır?
 
 <div align="center">
-<img src="assets/img/mimari.svg" alt="MaxiPOS mimarisi" width="100%"/>
+<img src="assets/img/mimari-v2.svg" alt="MaxiPOS mimarisi" width="100%"/>
 </div>
 
 Kasa, garson ve mutfak ekranları aynı yerel ağdaki tarayıcılardan açılır. Hepsi dükkândaki tek MaxiPOS sunucusuna bağlanır; sunucu verileri MariaDB'ye yazar, fişleri USB termal yazıcıya gönderir ve yedekleri alır. Bağlantı koparsa ekranlarda **"Sunucu ile bağlantı koptu"** uyarısı çıkar.
@@ -118,6 +122,30 @@ Kategori, ürün, fiyat ve fotoğraf yönetimi Ayarlar içinde.
   <img src="assets/screenshots/menu-yonetimi.jpg" width="900" alt="Menü yönetimi"/>
 </div>
 
+### 🗺️ Masa planı yönetimi
+Masalar bölgelere (bahçe, iç mekan, VIP) göre gruplanır; ekleme, düzenleme ve ikon değiştirme tek ekranda.
+<div align="center">
+  <img src="assets/screenshots/masa-plani-ayarlar.jpg" width="900" alt="Masa planı yönetimi"/>
+</div>
+
+### 📦 Stok
+Malzemeler satışta reçeteye göre otomatik düşer; kritik seviye uyarısı ve stok değeri anında görünür.
+<div align="center">
+  <img src="assets/screenshots/stok.jpg" width="900" alt="Stok ekranı"/>
+</div>
+
+### 🔐 Roller ve yetkiler
+Her role hangi ekranları göreceği ve hangi işlemleri yapabileceği tek tek verilir.
+<div align="center">
+  <img src="assets/screenshots/roller-yetkiler.jpg" width="900" alt="Roller ve yetkiler"/>
+</div>
+
+### 🌙 Gün sonu ayarları
+Otomatik ya da manuel Z raporu, gün dönümü saati.
+<div align="center">
+  <img src="assets/screenshots/gun-sonu-ayarlari.jpg" width="900" alt="Gün sonu ayarları"/>
+</div>
+
 ---
 
 ## 🔧 Teknoloji
@@ -137,6 +165,10 @@ Kategori, ürün, fiyat ve fotoğraf yönetimi Ayarlar içinde.
 ## 🚀 Kurulum
 
 Kurulum dükkânda tek komutla yapılır, kurulumdan sonra sistem internetsiz çalışır.
+
+<div align="center">
+<img src="assets/img/kurulum.svg" alt="Kurulum 4 adım" width="100%"/>
+</div>
 
 1. Cihazı internete bağlayın ve kurulum USB'sini takın.
 2. `sudo bash kur.sh` komutunu çalıştırın.
